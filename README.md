@@ -19,7 +19,7 @@
    - Instrucciones detalladas para instalar y configurar Debian y Ubuntu.
    - Consejos para gestionar múltiples distribuciones.
      
-7. [Procesos asociados WSL](procesos)
+7. [Procesos asociados WSL](procesos.md)
 
    - Gestión y monitorización de procesos en WSL.
    - Integración y ejecución de comandos de Windows desde WSL y viceversa.
