@@ -6,7 +6,10 @@
 ## Índice
 
 1. [Introducción (¿Qué es WSL?)](introduccion.md)
-2. [Instalación](instalacion.md)
-3. [Instalación de un Debian y un Ubuntu](#instalaciondebianubuntu)
-4. [Procesos asociados WSL](procesos)
-5. [Referencias](referencias)
+    - Explicación de qué es WSL.
+    - Diferencias entre WSL 1 y WSL 2.
+      
+3. [Instalación](instalacion.md)
+4. [Instalación de un Debian y un Ubuntu](#instalaciondebianubuntu)
+5. [Procesos asociados WSL](procesos)
+6. [Referencias](referencias)
