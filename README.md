@@ -1,5 +1,8 @@
 #  Windows SuBsystem Linux(WSL) 
 
+![pinguino](pinguin.png)
+
+
 ## Índice
 
 1. [Introducción (¿Qué es WSL?)](introduccion.md)
