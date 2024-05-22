@@ -1,45 +1,47 @@
-## Instalación
+## Instalación de Linux en Windows con WSL
+Los desarrolladores pueden acceder a la potencia de Windows y Linux al mismo tiempo en una máquina Windows. Subsistema de Windows para Linux (WSL) permite a los desarrolladores instalar una distribución de Linux (como Ubuntu, OpenSUSE, Kali, Debian, Arch Linux, etc.) y usar aplicaciones, utilidades y herramientas de línea de comandos de Bash directamente en Windows, sin modificar, sin la sobrecarga de una máquina virtual tradicional o una configuración de arranque dual.
 
-**Paso 1: Habilitar WSL**
+## Prerrequisitos
 
-1. Abre PowerShell como administrador y ejecuta el siguiente comando:
-   
-   ``` dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart ```
-
-
-2. Habilita la característica de Máquina Virtual:
-
-  ``` dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart ```
+Para ejecutar los siguientes comandos, debe ejecutar Windows 10 versión 2004 y posteriores (compilación 19041 y posteriores) o Windows 11. Si está en versiones anteriores, consulte la [página de instalación manual](https://learn.microsoft.com/es-es/windows/wsl/install-manual).
 
 
-3. Reinicia tu computadora para aplicar los cambios.
+## Comando de instalación de WSL
 
+Ahora puede instalar todo lo que necesita para ejecutar WSL con un solo comando. Abra PowerShell o el símbolo del sistema de Windows como administrador; para ello, haga clic con el botón derecho y seleccione "Ejecutar como administrador", escriba el comando `wsl --install` y reinicie la máquina.
 
-**Paso 2: Actualizar el kernel de WSL 2**
+### PowerShell
 
-Actualización de la versión de WSL 1 a WSL 2
-Las nuevas instalaciones de Linux, instaladas con el comando wsl --install, se establecerán en WSL 2 de forma predeterminada.
+```powershell
+wsl --install
 
-El comando wsl --set-version se puede usar para cambiar de WSL 2 a WSL 1 o para actualizar distribuciones de Linux instaladas previamente de WSL 1 a WSL 2.
+Este comando habilitará las características necesarias para ejecutar WSL e instalará la distribución Ubuntu de Linux. (Esta distribución predeterminada se puede cambiar).
 
-Para ver si la distribución de Linux está establecida en WSL 1 o WSL 2, use el comando wsl -l -v.
+La primera vez que inicie una distribución de Linux recién instalada, se abrirá una ventana de la consola y se le pedirá que espere a que los archivos se descompriman y se almacenen en el equipo. Todos los inicios posteriores deberían tardar menos de un segundo en completarse.
+````poweshell
+wsl --list --online para ver una lista de distribuciones disponibles y ejecute 
+wsl --install -d <DistroName> para instalar una distribución.
+```
+## Cambio de la distribución predeterminada de Linux instalada
 
-Para cambiar de versión, use el comando: wsl --set-version <distro name> 2. Sustituya <distro name> por el nombre de la distribución de Linux que quiera actualizar. Por ejemplo, wsl --set-version Ubuntu-20.04 2 establecerá la distribución de Ubuntu 20.04 para usar WSL 2.
+De forma predeterminada, la distribución de Linux instalada será Ubuntu. Se puede cambiar mediante la marca `-d`.
 
-Si instaló WSL manualmente antes de que estuviera disponible el comando wsl --install, es posible que también tenga que habilitar el componente opcional de máquina virtual usado por WSL 2 e instalar el paquete de kernel si aún no lo ha hecho.
+Para cambiar la distribución instalada, escriba: `wsl --install -d <Nombre de la Distribución>`. Reemplace `<Nombre de la Distribución>` por el nombre de la distribución que desea instalar.
 
-Para obtener más información, consulte la Referencia de comandos para WSL para obtener una lista de comandos WSL, Comparación de WSL 1 con WSL 2 para obtener instrucciones sobre cuál usar en su escenario de trabajo, o Procedimientos recomendados para configurar un entorno de desarrollo de WSL para obtener instrucciones generales sobre cómo configurar un buen flujo de trabajo de desarrollo con WSL.
+Para ver una lista de las distribuciones de Linux disponibles para descargar a través de la tienda en línea, escriba `wsl --list --online` o `wsl -l -o`.
 
-Comprobación de la versión de WSL que se está ejecutando
-Para enumerar las distribuciones de Linux instaladas y comprobar en qué versión de WSL está establecida cada una, puede escribir el comando wsl -l -v en PowerShell o en el Símbolo del sistema de Windows.
+Para instalar distribuciones de Linux adicionales después de la instalación inicial, también puede usar el comando `wsl --install -d <Nombre de la Distribución>`.
 
-Para establecer la versión predeterminada en WSL 1 o WSL 2 cuando se instala una nueva distribución de Linux, use el comando wsl --set-default-version <Número de Versión>, reemplazando <Número de Versión> por 1 o 2.
+### Sugerencia
 
-Para establecer la distribución predeterminada de Linux que se usa con el comando wsl, escriba wsl -s <Nombre de la Distribución> o wsl --set-default <Nombre de la Distribución>, reemplazando <Nombre de la Distribución> por el nombre de la distribución de Linux que le gustaría usar. Por ejemplo, en PowerShell/CMD, escriba wsl -s Debian para establecer la distribución predeterminada en Debian. Ahora, al ejecutar wsl npm init desde PowerShell, se ejecutará el comando npm init en Debian.
+Si desea instalar distribuciones adicionales desde dentro de una línea de comandos de Linux/Bash (en lugar de hacerlo desde PowerShell o el símbolo del sistema), debe usar `.exe` en el comando `wsl.exe --install -d <Nombre de la Distribución>` o para enumerar las distribuciones disponibles: `wsl.exe -l -o`.
 
-Para ejecutar una distribución de WSL específica desde PowerShell o el Símbolo del sistema de Windows sin cambiar la distribución predeterminada, use el comando wsl -d <Nombre de la Distribución>, reemplazando <Nombre de la Distribución> por el nombre de la distribución que desea usar.
+## Comprobación de la versión de WSL que se está ejecutando
 
-**Paso 3:Establecer WSL 2 como predeterminado**
+Para enumerar las distribuciones de Linux instaladas y comprobar en qué versión de WSL está establecida cada una, puede escribir el comando `wsl -l -v` en PowerShell o en el Símbolo del sistema de Windows.
 
-1. En PowerShell, ejecuta: ``` wsl --set-default-version 2 ```
+Para establecer la versión predeterminada en WSL 1 o WSL 2 cuando se instala una nueva distribución de Linux, use el comando `wsl --set-default-version <Número de Versión>`, reemplazando `<Número de Versión>` por 1 o 2.
 
+Para establecer la distribución predeterminada de Linux que se usa con el comando `wsl`, escriba `wsl -s <Nombre de la Distribución>` o `wsl --set-default <Nombre de la Distribución>`, reemplazando `<Nombre de la Distribución>` por el nombre de la distribución de Linux que le gustaría usar. Por ejemplo, en PowerShell/CMD, escriba `wsl -s Debian` para establecer la distribución predeterminada en Debian. Ahora, al ejecutar `wsl npm init` desde PowerShell, se ejecutará el comando `npm init` en Debian.
+
+Para ejecutar una distribución de WSL específica desde PowerShell o el Símbolo del sistema de Windows sin cambiar la distribución predeterminada, use el comando `wsl -d <Nombre de la Distribución>`, reemplazando `<Nombre de la Distribución>` por el nombre de la distribución que desea usar.
