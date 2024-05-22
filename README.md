@@ -15,5 +15,9 @@
    - Configuración de WSL 2 como versión predeterminada.
      
 5. [Instalación de un Debian y un Ubuntu](#instalaciondebianubuntu)
-6. [Procesos asociados WSL](procesos)
-7. [Referencias](referencias)
+
+   - Instrucciones detalladas para instalar y configurar Debian y Ubuntu.
+   - Consejos para gestionar múltiples distribuciones.
+     
+7. [Procesos asociados WSL](procesos)
+8. [Referencias](referencias)
