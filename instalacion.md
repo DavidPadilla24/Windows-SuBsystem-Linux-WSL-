@@ -3,14 +3,13 @@
 **Paso 1: Habilitar WSL**
 
 1. Abre PowerShell como administrador y ejecuta el siguiente comando:
-   ```powershell
-   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+   
+   ``` dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart ```
 
 
 2. Habilita la característica de Máquina Virtual:
 
-  ``` powershell
-  dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart 
+  ``` dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart ```
 
 
 3. Reinicia tu computadora para aplicar los cambios.
@@ -24,5 +23,5 @@
 
 **Paso 3:Establecer WSL 2 como predeterminado**
 
-1. En PowerShell, ejecuta: wsl --set-default-version 2
+1. En PowerShell, ejecuta: ``` wsl --set-default-version 2 ```
 
