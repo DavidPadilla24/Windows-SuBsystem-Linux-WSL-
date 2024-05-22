@@ -19,4 +19,4 @@ Desde PowerShell, puedes ejecutar comandos de WSL:
 wsl ls -la
 ```
 
-![Procesos](wsl.png)
+![Procesos](wsl2.png)
