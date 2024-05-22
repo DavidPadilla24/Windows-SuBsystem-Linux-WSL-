@@ -1,6 +1,7 @@
-# Windows-SuBsystem-Linux-WSL-
-
-# Proyecto: Windows Subsystem for Linux (WSL)
+#  Windows SuBsystem Linux(WSL) :penguin:
+<p align="center">
+   <img src="img/descarga.png" alt="portada"/>
+</p>
 
 ## Índice
 
