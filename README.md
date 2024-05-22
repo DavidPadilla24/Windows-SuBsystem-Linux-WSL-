@@ -1,7 +1,4 @@
-#  Windows SuBsystem Linux(WSL) :penguin:
-<p align="center">
-   <img src="img/descarga.png" alt="portada"/>
-</p>
+#  Windows SuBsystem Linux(WSL) 
 
 ## Índice
 
