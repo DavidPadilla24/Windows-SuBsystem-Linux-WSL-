@@ -20,4 +20,10 @@
    - Consejos para gestionar múltiples distribuciones.
      
 7. [Procesos asociados WSL](procesos)
-8. [Referencias](referencias)
+
+   - Gestión y monitorización de procesos en WSL.
+   - Integración y ejecución de comandos de Windows desde WSL y viceversa.
+   - Herramientas y comandos útiles para la administración del entorno WSL.
+
+
+9. [Referencias](referencias)
