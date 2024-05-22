@@ -9,7 +9,8 @@
 
 2. Habilita la característica de Máquina Virtual:
 
-  ``` dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart ```
+  ``` powershell
+  dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart 
 
 
 3. Reinicia tu computadora para aplicar los cambios.
