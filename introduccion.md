@@ -13,13 +13,12 @@ WSL proporciona dos versiones:
 - **WSL 2**  se introdujo en Windows 10 May 2020 Update (versión 2004) y ofrece varias mejoras sobre WSL.
 
   
-<br><br>
+<br>
+<br>
 
 **Diferencias entre WSL 1 y WSL 2**
 <br>
-
-
-
+<br>
 
 
 | Característica                          | WSL 1                       | WSL 2                   |
