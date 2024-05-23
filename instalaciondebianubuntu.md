@@ -1,1 +1,1 @@
-![Soy david](images/SOY_DAVID_CAP1.png)
+![Soy david](images/SOYDAVIDCAP1.png)
