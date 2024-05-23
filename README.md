@@ -9,12 +9,12 @@
     - Explicación de qué es WSL.
     - Diferencias entre WSL 1 y WSL 2.
       
-2. [Instalación](instalacion.md)
+2. [Instalación (Comandos)](instalacion.md)
 
    - Instrucciones paso a paso para habilitar y configurar WSL en Windows 11.
    - Configuración de WSL 2 como versión predeterminada.
      
-5. [Instalación de un Debian y un Ubuntu](#instalaciondebianubuntu)
+5. [Instalación de un Debian y un Ubuntu (Demostracion)](#instalaciondebianubuntu)
 
    - Instrucciones detalladas para instalar y configurar Debian y Ubuntu.
    - Consejos para gestionar múltiples distribuciones.
