@@ -13,3 +13,6 @@
 - Comprobamos otras distribuciones que podemos instalar con ` wsl --list --online` .
 
   ![Distribuciones](images/distribuciones.png)
+
+### Paso 3 
+- Instalamos Debian tambien con `wsl --install -d Debian ` .
