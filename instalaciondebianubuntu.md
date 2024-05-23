@@ -40,3 +40,8 @@
 - Para iniciar Debian solo tendremos que poner en Powershell su nombre , Debian. Nos pedira que nos logeemos con nombre de usuario y contraseña y ya estará listo para funcionar.
 
   ![*](images/debiancorriendo.png)
+
+### Paso 7
+- Por último comprobaremos que ambas versiones funcionan y estan operativas.
+
+   ![*](images/dosversiones.png)
