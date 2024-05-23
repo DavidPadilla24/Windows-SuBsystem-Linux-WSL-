@@ -11,9 +11,6 @@
   
  ![Instalacion WSL](images/ubuntuinstalado.png)
 
- 
-
-
 ### Paso 2 
 - Comprobamos otras distribuciones que podemos instalar con ` wsl --list --online` .
 
@@ -23,3 +20,7 @@
 - Instalamos **Debian** tambien con `wsl --install -d Debian ` .
 
    ![Debian](images/instalaciondebian.png)
+
+### Paso 4
+- Una vez que hayamos instalado ambas distribuciones deberemos **reiniciar** el pc . Cuando lo reiniciemos se nos abrira una ventana para introducir el usuario y contraseña de nuestro ubuntu.
+
