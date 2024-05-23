@@ -4,6 +4,8 @@
 
 En resumen, WSL es una herramienta poderosa que te permite ejecutar software de Linux en Windows de forma fácil y cómoda.
 
+<br>
+
 WSL proporciona dos versiones:
 
 - **WSL 1** se introdujo en Windows 10 Anniversary Update (versión 1607) y ha sido una herramienta popular para desarrolladores y usuarios que necesitan ejecutar software de Linux en Windows.
@@ -14,6 +16,7 @@ WSL proporciona dos versiones:
 <br><br>
 
 **Diferencias entre WSL 1 y WSL 2**
+<br>
 
 
 
