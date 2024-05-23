@@ -4,7 +4,7 @@
 
 
 ### Paso 1 
-- Abrimos Powershell **como administrador** e instalamos WSL con el comando  ` wsl --install `  ( Por defecto se nos instalara Ubuntu )
+- Abrimos Powershell **como administrador** e instalamos WSL con el comando  ` wsl --install `  ( Por defecto se nos instalara **Ubuntu** )
   
  ![Instalacion WSL](images/ubuntuinstalado.png)
 
@@ -15,4 +15,6 @@
   ![Distribuciones](images/distribuciones.png)
 
 ### Paso 3 
-- Instalamos Debian tambien con `wsl --install -d Debian ` .
+- Instalamos **Debian** tambien con `wsl --install -d Debian ` .
+
+   ![Debian](images/instalaciondebian.png)
