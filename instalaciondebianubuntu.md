@@ -10,4 +10,6 @@
 
 
 ### Paso 2 
-- 
+- Comprobamos otras distribuciones que podemos instalar con ` wsl --list --online` .
+
+  ![Distribuciones](images/distribuciones.png)
