@@ -1,1 +1,1 @@
-![Soy DAVID ALVAREZ](/images/SOY DAVID CAP1)
+![Logo de la Empresa](images/SOY_DAVID_CAP1.png)
