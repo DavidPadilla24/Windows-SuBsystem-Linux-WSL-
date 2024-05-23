@@ -9,3 +9,14 @@ WSL proporciona dos versiones:
 - WSL 1 se introdujo en Windows 10 Anniversary Update (versión 1607) y ha sido una herramienta popular para desarrolladores y usuarios que necesitan ejecutar software de Linux en Windows.
   
 - WSL 2 se introdujo en Windows 10 May 2020 Update (versión 2004) y ofrece varias mejoras sobre WSL 1
+
+
+| Característica                          | WSL 1                       | WSL 2                   |
+|-----------------------------------------|-----------------------------|-------------------------|
+| Kernel                                  | Traductor de llamadas del sistema | Kernel de Linux real     
+| Aislamiento                             | Bajo                        | Alto                    |
+| Soporte para múltiples distribuciones   | Limitado                    | Completo                |
+| Rendimiento de los archivos             | Bueno                       | Mejor                   |
+| Compatibilidad de aplicaciones          | Buena                       | Excelente               |
+| Rendimiento general                     | Bueno                       | Mejor                   |
+****
