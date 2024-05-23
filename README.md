@@ -1,6 +1,6 @@
 #  Windows SuBsystem Linux(WSL) 
 
-![pinguino](pinguin.png)
+![pinguino](images/pinguin.png)
 
 
 ## Índice
