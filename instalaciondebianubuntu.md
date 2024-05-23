@@ -36,3 +36,7 @@
   
 ![*](images/ubuntucorriendo.png)
   
+### Paso 6
+- Para iniciar Debian solo tendremos que poner en Powershell su nombre , Debian. Nos pedira que nos logeemos con nombre de usuario y contraseña y ya estará listo para funcionar.
+
+  ![*](images/debiancorriendo.png)
