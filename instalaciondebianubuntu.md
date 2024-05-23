@@ -42,6 +42,6 @@
   ![*](images/debiancorriendo.png)
 
 ### Paso 7
-- Por último comprobaremos que ambas versiones funcionan y estan operativas.
+- Por último comprobaremos que ambas versiones funcionan y estan operativas con `wsl -l-v` .
 
    ![*](images/dosversiones.png)
