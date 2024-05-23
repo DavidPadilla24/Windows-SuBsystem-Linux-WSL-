@@ -28,4 +28,4 @@
 
 - Una vez hecho ya tendremos nuestro ubuntu listo para funcionar.
 
-  ![Ubuntu](images/ubuntucorriendo.png)
+  ![Ubuntu](images/comandosubuntu.png)
