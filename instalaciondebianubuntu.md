@@ -6,4 +6,4 @@
 ### Paso 1 
 - Abrimos Powershell como administrador e instalamos WSL con el comando  ` wsl --install `  ( Por defecto se nos instalara Ubuntu )
   
- ![Soy david](images/SOYDAVIDCAP1.png)
+ ![Instalacion WSL](images/ubuntuinstalado.png)
