@@ -26,3 +26,6 @@
 
    ![Ubuntu](images/reinicioubuntu.png)
 
+- Una vez hecho ya tendremos nuestro ubuntu listo para funcionar.
+
+  ![Ubuntu](images/ubuntucorriendo.png)
