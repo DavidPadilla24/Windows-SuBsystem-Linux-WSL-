@@ -14,7 +14,7 @@
    - Instrucciones paso a paso para habilitar y configurar WSL en Windows 11.
    - Configuración de WSL 2 como versión predeterminada.
      
-5. [Instalación de un Debian y un Ubuntu (Demostracion)](instalaciondebianubuntu.md)
+5. [Instalación de un Debian y un Ubuntu (Guía)](instalaciondebianubuntu.md)
 
    - Instrucciones detalladas para instalar y configurar Debian y Ubuntu.
    - Consejos para gestionar múltiples distribuciones.
