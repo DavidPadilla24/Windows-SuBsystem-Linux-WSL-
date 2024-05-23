@@ -35,13 +35,3 @@ Para ver una lista de las distribuciones de Linux disponibles para descargar a t
 
 Para instalar distribuciones de Linux adicionales después de la instalación inicial, también puede usar el comando `wsl --install -d <Nombre de la Distribución>`.
 
-
-## Comprobación de la versión de WSL que se está ejecutando
-
-Para enumerar las distribuciones de Linux instaladas y comprobar en qué versión de WSL está establecida cada una, puede escribir el comando `wsl -l -v` en PowerShell o en el Símbolo del sistema de Windows.
-
-Para establecer la versión predeterminada en WSL 1 o WSL 2 cuando se instala una nueva distribución de Linux, use el comando `wsl --set-default-version <Número de Versión>`, reemplazando `<Número de Versión>` por 1 o 2.
-
-Para establecer la distribución predeterminada de Linux que se usa con el comando `wsl`, escriba `wsl -s <Nombre de la Distribución>` o `wsl --set-default <Nombre de la Distribución>`, reemplazando `<Nombre de la Distribución>` por el nombre de la distribución de Linux que le gustaría usar. Por ejemplo, en PowerShell/CMD, escriba `wsl -s Debian` para establecer la distribución predeterminada en Debian. Ahora, al ejecutar `wsl npm init` desde PowerShell, se ejecutará el comando `npm init` en Debian.
-
-Para ejecutar una distribución de WSL específica desde PowerShell o el Símbolo del sistema de Windows sin cambiar la distribución predeterminada, use el comando `wsl -d <Nombre de la Distribución>`, reemplazando `<Nombre de la Distribución>` por el nombre de la distribución que desea usar.
