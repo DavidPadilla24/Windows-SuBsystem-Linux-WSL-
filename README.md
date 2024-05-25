@@ -24,4 +24,4 @@
    - Herramientas y comandos útiles para la administración del entorno WSL.
 
 
-9. [Referencias](referencias)
+9. [Referencias](referencias.md)
