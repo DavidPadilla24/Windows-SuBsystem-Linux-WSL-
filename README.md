@@ -36,5 +36,5 @@ Este proyecto está licenciado bajo la [MIT License](LICENSE). Siéntete libre d
 
  ### AUTOR
 
- :pushpin: [Álvarez Padilla, David](https://github.com/Davidpadilla24)
+ :pushpin: [David Álvarez Padilla](https://github.com/Davidpadilla24)
 
