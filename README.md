@@ -20,7 +20,6 @@
 7. [Procesos asociados WSL](procesos.md)
 
    - Gestión y monitorización de procesos en WSL.
-   - Integración y ejecución de comandos de Windows desde WSL y viceversa.
    - Herramientas y comandos útiles para la administración del entorno WSL.
 
 
